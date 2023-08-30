@@ -1,0 +1,30 @@
+import java.util.*;
+
+
+public class Functions {
+    public static void MaxOfTwoNums(int a, int b){
+       
+       int Max;
+        if(a>b){
+            Max=a;
+            System.out.println("The greatest number is: "+Max);
+        }
+      
+        else if(b>a){
+            Max=b;
+            System.out.println("The greatest number is: "+Max);
+        }
+        else if(a==b||b==a){
+            System.out.println("Greatest number does not exist");
+        }
+    
+
+        return;
+    }
+    public static void main(String args[]){
+     Scanner sc = new Scanner(System.in);
+     int a = sc.nextInt();
+     int b = sc.nextInt();
+    MaxOfTwoNums(a,b);
+    }
+}
