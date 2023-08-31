@@ -1,0 +1,19 @@
+import java.util.*;
+
+
+public class Functions {
+    public static void CircumferenceOfCircle(int n){
+       float pie = 2.14f;
+       float coc;
+       coc = 2*pie*n;
+       System.out.print("The Circumference of a circle is: ");
+       System.out.printf("%.2f",coc);
+        return;
+    }
+    public static void main(String args[]){
+     Scanner sc = new Scanner(System.in);
+     int n = sc.nextInt();
+     
+    CircumferenceOfCircle(n);
+    }
+}
